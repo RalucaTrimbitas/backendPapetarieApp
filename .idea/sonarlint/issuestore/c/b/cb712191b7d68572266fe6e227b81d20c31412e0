@@ -1,0 +1,6 @@
+
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÿø£Î
+Y
+java:S5344">Don't use the default "PasswordEncoder" relying on plain-text.(İÔÜºùÿÿÿÿ
+Q
+java:S1874";Remove this use of "NoOpPasswordEncoder"; it is deprecated.(å‰ö

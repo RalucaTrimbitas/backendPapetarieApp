@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+
+    <class name="domain.Administrator" table="Administrator">
+        <id name="numeUtilizator" column="numeUtilizator"/>
+        <property name="parola" column="parola"/>
+        <property name="nume" column="nume"/>
+        <property name="prenume" column="prenume"/>
+        <property name="email" column="email"/>
+    </class>
+
+</hibernate-mapping>

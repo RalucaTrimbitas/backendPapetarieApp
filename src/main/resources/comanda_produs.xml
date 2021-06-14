@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+
+    <class name="domain.Comanda_Produs" table="Comanda_produs">
+        <id name="id_Comanda_Produs" column="id_Comanda_Produs"/>
+        <property name="idComanda" column="idComanda"/>
+        <property name="idProdus" column="idProdus"/>
+        <property name="cantitate" column="cantitate"/>
+    </class>
+
+</hibernate-mapping>

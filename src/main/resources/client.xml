@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class name="domain.Client" table="Client">
+        <id name="numeUtilizator" column="numeUtilizator"/>
+        <property name="parola" column="parola"/>
+        <property name="nume" column="nume"/>
+        <property name="prenume" column="prenume"/>
+        <property name="tip" column="tip">
+            <type name="org.hibernate.type.EnumType">
+                <param name="enumClass">domain.enums.TipClient</param>
+                <param name="type">12</param>
+                <param name="useNamed">true</param>
+            </type>
+        </property>
+        <property name="email" column="email"/>
+        <property name="numarTelefon" column="numarTelefon"/>
+        <property name="adresa" column="adresa"/>
+        <property name="companie" column="companie"/>
+        <property name="codFiscal" column="codFiscal"/>
+    </class>
+</hibernate-mapping>

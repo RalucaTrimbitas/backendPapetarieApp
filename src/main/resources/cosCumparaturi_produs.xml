@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+
+    <class name="domain.CosCumparaturi_Produs" table="CosCumparaturi_produs">
+        <id name="id_CosCumparaturi_Produs" column="id_CosCumparaturi_Produs"/>
+        <property name="idCosCumparaturi" column="idCosCumparaturi"/>
+        <property name="idProdus" column="idProdus"/>
+        <property name="cantitate" column="cantitate"/>
+    </class>
+
+</hibernate-mapping>

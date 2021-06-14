@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+
+    <class name="domain.Produs" table="Produs">
+        <id name="codDeBare" column="codDeBare"/>
+        <property name="numeUtilizatorAdministrator" column="numeUtilizatorAdministrator"/>
+        <property name="idCategorieProdus" column="idCategorieProdus"/>
+        <property name="denumire" column="denumire"/>
+        <property name="pret" column="pret"/>
+        <property name="descriere" column="descriere"/>
+        <property name="detalii" column="detalii"/>
+        <property name="src" column="src"/>
+    </class>
+</hibernate-mapping>
